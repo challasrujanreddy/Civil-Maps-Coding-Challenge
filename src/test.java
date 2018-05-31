@@ -8,7 +8,7 @@ public class test {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
-		String f = "datafile";
+		String f = "../datafile";
 		File file = new File(f);
 		Scanner input = new Scanner(file);
 		int numOfItems = -1;
